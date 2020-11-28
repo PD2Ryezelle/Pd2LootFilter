@@ -17,7 +17,7 @@ ItemDisplay[(ARMOR OR WEAPON) ((MAG OR RARE OR SET OR UNI) AND ETH) SOCK>0]: %NA
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI) SOCK>0]: %NAME% %TAN%[%SOCKETS%]
 
 //Health & Mana Potions
-ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
+ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
 ItemDisplay[hp5]: %RED%!%WHITE%Hp
 ItemDisplay[mp5]: %BLUE%!%WHITE%Mp
@@ -85,14 +85,14 @@ ItemDisplay[hfh]: %NAME%%MAP-58% // Hellforge Hammer
 ItemDisplay[ice]: %GOLD%Malahs Potion%MAP-58% // Malah's Potion
 ItemDisplay[tr2]: %GOLD%Scroll of Resistance%MAP-58% // Scroll of Resistance
 
-// Map Items
-ItemDisplay[imma]: %YELLOW%o %NAME%%YELLOW% o%MAP%
-ItemDisplay[imra]: %RED%o %NAME%%RED% o%MAP%
-ItemDisplay[rera]: %ORANGE%o %NAME%%ORANGE% o%MAP%
-ItemDisplay[scou]: %GREEN%o %NAME%%GREEN% o%MAP%
-ItemDisplay[upma]: %BLUE%o %NAME%%BLUE% o%MAP%
-ItemDisplay[lbox]: %WHITE%o %GOLD%%NAME% %WHITE%o%MAP%
-ItemDisplay[wss]: %GREEN%o %PURPLE%%NAME% %GREEN%o%MAP%
+// PD2 Items
+ItemDisplay[imma]: %YELLOW%o %NAME%%YELLOW% o%MAP-62%
+ItemDisplay[imra]: %RED%o %NAME%%RED% o%MAP-62%
+ItemDisplay[rera]: %ORANGE%o %NAME%%ORANGE% o%MAP-62%
+ItemDisplay[scou]: %GREEN%o %NAME%%GREEN% o%MAP-62%
+ItemDisplay[upma]: %BLUE%o %NAME%%BLUE% o%MAP-62%
+ItemDisplay[lbox]: %WHITE%o %GOLD%%NAME% %WHITE%o%MAP-62%
+ItemDisplay[wss]: %GREEN%o %PURPLE%%NAME% %GREEN%o%MAP-62%
 
 // Maps
 ItemDisplay[t11]: %PURPLE%*** %RED%%NAME% %PURPLE%***%MAP-62% // Sewers of Harrogath Map
@@ -114,8 +114,8 @@ ItemDisplay[dcma]: %RED%%NAME%%MAP-62% // Vision of Terror
 ItemDisplay[ear]: %ORANGE%%NAME%
 
 //Runes
-ItemDisplay[r01 OR r02 OR r03 OR r07 OR r10 OR r14]: %ORANGE%%RUNENAME% %GRAY%[%RUNENUM%]
-ItemDisplay[r01s OR r02s OR r03s OR r07s OR r10s OR r14s]: %ORANGE%%RUNENAME% %GRAY%[%RUNENUM%]
+ItemDisplay[r01 OR r02 OR r03 OR r07 OR r10 OR r14]: %ORANGE%%RUNENAME% %GRAY%[%RUNENUM%]%DOT-76%
+ItemDisplay[r01s OR r02s OR r03s OR r07s OR r10s OR r14s]: %ORANGE%%RUNENAME% %GRAY%[%RUNENUM%]%DOT-76%
 ItemDisplay[r04 OR r05 OR r06 OR r08 OR r09 OR r11 OR r12 OR r13]: %ORANGE%%RUNENAME% %TAN%[%RUNENUM%]%DOT-76%
 ItemDisplay[r04s OR r05s OR r06s OR r08s OR r09s OR r11s OR r12s OR r13s]: %ORANGE%%RUNENAME% %TAN%[%RUNENUM%]%DOT-76%
 ItemDisplay[r15 OR r16 OR r17]: %ORANGE%%RUNENAME% %TAN%[%RUNENUM%]%MAP-0B%
